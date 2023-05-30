@@ -17,27 +17,51 @@
     <main>
 
         <section>
-            <textarea class="text-area" name="" id="" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            
+            <textarea class="cajatexto" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            
             <div>
                 <h6 class="informacion">Ingrese solo letras minusculas y sin acento</h6>
             </div>
-            <div class="button" >
-                <button class="encriptar">Encriptar</button>
-                <button class="desencriptar">Desencriptar</button>
+
+            <div class="contenedor-botones" >
+                <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
             </div>
+
+
         </section>
 
         <section>
-            <textarea class="mensaje" name="" id="" cols="30" rows="10"></textarea>
-
-            <div class="copiar">
-                <button>Copiar</button>
-            </div>
             
+            <div class="contenedor-total-salida">
+
+                <div class="shh">
+                    <img src="img/shh.png" alt="shh imagen">
+                </div>
+                
+                <textarea class="mensaje" cols="30" rows="10" placeholder="Ningun texto fue encontrado"></textarea>
+                
+                <div class="contenedor-indicacion">
+                    <p class="indicacion"> Ingrese aqui el texto a encriptar o desencritar</p>
+                </div>
+
+
+                <div class="contenedor-copiar">
+                    <button class="copy" onclick = "copiar()">Copiar</button>
+                </div>
+              
+             </div>
+        
         </section>
 
 
     </main>
-    
+    <footer>
+        &copy; SeruhioCode - 2023
+    </footer>
+    <script src="script.js"></script>
+
 </body>
+ 
 </html>

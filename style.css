@@ -4,12 +4,18 @@
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
+    
+
 }
 
+
 .logo{
-    padding-top: 10px;
-    margin-left: 10px;
-    width: 10%;
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+   
     
 }
 
@@ -19,7 +25,10 @@ main{
     margin-left: 80px;
 }
 
-.text-area {
+.cajatexto {
+    margin-left: 240px;
+    margin-right: 623px;
+    margin-top: 168px;
     border: none;
     color: #0A3871;
     margin-top: 90px;
@@ -29,30 +38,110 @@ main{
 }
 
 ::placeholder { color: #0A3871; }
-
-  .text-area :focus{
-       outline: none;
-    }
-
-.mensaje{
-    background: white;
-    background-image: url("img/shh.png") ;
-    background-repeat: no-repeat;
-    border: none;
-    border-radius: 24px;
-    color: #0A3871;
-    margin-left: 98px;
-    margin-top: 20px;
-    padding-left: 20px;
-    position: fixed;
-}
-.mensaje :focus{
+ .text-area :focus {
     outline: none;
 }
 
-.button{
+ 
+
+.informacion{
+    position: absolute;
+    width: 250px;
+    height: 16px;
+    left: 100px;
+    top: 550px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.contenedor-total-salida{
+    position: absolute;
+    background-color: white;
+    width: 400px;
+    height: 750px;
+    border: 1px solid black;
+    border-radius: 32px;
+    margin-top: 40px;
+    margin-right: 400px;
+    margin-left: 50px;
+}
+
+.shh{
+    
+    width: 100%;
+    height: 304px;   
+    border: 1px solid salmon;
+}
+
+.shh, img {
+    position: relative;
+    align-items: center;
+    width: 330px;
+    height: 295px;   
+    border:none;
+    border-radius: 32px;
+}
+
+
+.mensaje{
+    position: absolute;
+    width: 350px;
+    height: 122px;
+    border: none;
+    text-align: center;
+    padding-left: 10px;
+    margin: 20px 20px;
+
+   
+}
+
+.contenedor-indicacion{
     display: flex;
-    margin-top: 10px;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 10px;
+    border: none;
+    width: 370px;
+    height: 100px;
+}
+
+.indicacion{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contenedor-copiar{
+    display: flex;
+    position: absolute;
+    margin-top: 20px;
+    
+
+}
+
+
+.copy{
+    background-color: #0A3871;
+    border: 1px solid #071a32;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    width: 367px;
+    height: 67px;
+    margin-top: 350px;
+    margin-left: 20px;
+}
+
+.contenedor-botones{
+    display: flex;
+    position: absolute;
+    margin-top: 20px;
     
 
 }
@@ -65,6 +154,7 @@ main{
     cursor: pointer;
     height: 67px;
     width: 328px;
+    margin-right: 10px;
 }
 
 .desencriptar{
@@ -77,16 +167,13 @@ main{
     width: 328px;
 }
 
-.copiar{
-    border: 2px solid #0A3871;
-    border-radius: 24px;
-    color: #0A3871;
-    cursor: pointer;
-    height: 67px;
-    margin-left: 108px;
-    margin-top: 402px;
-    position: absolute;
-    width: 436px;
-   
+footer{
+    text-align: left;
+    padding-top: 100px;
+    margin-top: 80px;
 }
+
+ 
+   
+
 
